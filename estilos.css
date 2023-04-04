@@ -136,7 +136,7 @@ a {
   .rowzapas {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 130vh;
     border-top: 1px dotted red;
   }
   .linksfoot {
@@ -152,7 +152,7 @@ a {
   .zapas2,
   .zapas3 {
     width: 100%;
-    background-size: cover;
+    background-size: contain;
   }
 
   .zapastitle {
