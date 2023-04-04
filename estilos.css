@@ -16,6 +16,7 @@ footer {
   font-family: "Roboto";
   color: whitesmoke;
   padding: 2rem;
+  height: 20vh;
 }
 
 .nav {
@@ -135,8 +136,9 @@ a {
   .rowzapas {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 120vh;
     border-top: 1px dotted red;
+    box-sizing: border-box;
   }
   .linksfoot {
     display: none;
@@ -151,7 +153,6 @@ a {
   .zapas2,
   .zapas3 {
     width: 100%;
-    background-size: cover;
   }
 
   .zapastitle {
